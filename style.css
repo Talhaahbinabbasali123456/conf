@@ -1,0 +1,128 @@
+body {
+	margin: 0px; 
+	cursor: pointer;
+	font-family: roboto;
+}
+header 	{
+	color: white;
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 20px;
+}
+header > nav> ul > li {
+	color: #2178ff;
+	margin: 0px 10px; 
+	display: inline-block;
+}
+header > nav> ul > li:hover {
+	color: #63a4ff;
+}
+button {
+	margin: 0px 15px; 
+	padding: 5px 15px;
+	border: 1px solid #42cdb2;
+	background-color: #ffffff;
+}
+.logo {
+	margin: 0px 15px;
+	color: black;
+}
+.logo:hover {
+	color: #63a4ff;
+}
+.main-sec {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: center;
+}
+#div-color {
+	margin: 5px;
+	padding: 50px 50px 50px 5px;
+	width: 300px;
+}
+.names-1 {
+	background-color: red;
+}
+.names-2 {
+	background-color: blue;
+}
+.names-3 {
+	background-color: yellow;
+}
+.names-4 {
+	background-color: green;
+}
+.names-5 {
+	background-color: purple;
+}
+.names-6 {
+	background-color: goldenrod;
+}
+.names-7 {
+	background-color: gray;
+}
+.names-8 {
+	background-color: red;
+}
+.names-9 {
+	background-color: orange;
+}
+.names-10 {
+	background-color: green;
+}
+.names-11 {
+	background-color: yellow;
+}
+.names-12 {
+	background-color: blue;
+}
+.names-13 {
+	background-color: gray;
+}
+.names-14 {
+	background-color: yellow;
+}
+#div-color:hover {
+	margin: 5px;
+	padding: 50px 50px 50px 5px;
+	width: 300px;
+	background-color: black;
+	color: white;
+}
+h4 {
+	font-size: 30px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.names > span {
+	font-size: 15px;
+}
+footer {
+	height: 150px;
+	background-color: black;
+}
+
+
+
+@media screen and (max-height: 800px;) {
+.main-sec {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+}
+#div-color {
+	margin: 5px;
+	padding: 50px 50px 50px 5px;
+	width: 500px;
+}
+#div-color:hover {
+	margin: 5px;
+	padding: 50px 50px 50px 5px;
+	width: 500px;
+	background-color: black;
+	color: white;
+}
+}
